@@ -1,0 +1,10 @@
+# Execute winlogbeat
+
+cd C:\Program Files\Elastic\Beats\7.7.1\winlogbeat\
+winlogbeat.exe -c "C:\Users\Administrator\Documents\Workshop\beats conf file\winlogbeat.yml.txt" -e
+
+# Execute Packetbeat
+
+cd C:\Program Files\Elastic\Beats\7.7.1\packetbeat\
+packetbeat.exe -c "C:\Users\Administrator\Documents\Workshop\beats conf file\packetbeat.yml.txt" -e
+
